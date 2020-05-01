@@ -1,4 +1,8 @@
 [build]
- command = "yarn build"
- functions = "dist/index.js"
- publish = "dist"
+  command = "yarn build"
+  functions = "dist/index.js"
+  publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/index"
