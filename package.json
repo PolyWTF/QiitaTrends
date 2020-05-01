@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "netlify-lambda": "^1.6.3",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/aws-lambda": "^8.10.51",
+    "@types/cheerio": "^0.22.18",
+    "@types/node": "^13.13.4"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve ./src/lambda",
+    "build": "netlify-lambda build ./src/lambda"
+  }
+}
