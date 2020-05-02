@@ -1,6 +1,6 @@
 [build]
   command = "yarn build"
-  functions = "dist/index.js"
+  functions = "dist/lambda"
   publish = "dist"
 
 [[redirects]]
