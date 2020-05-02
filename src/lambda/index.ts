@@ -16,6 +16,7 @@ const format = (object: QiitaTrend[]) => {
       createdAt: fetchedObject.node.createdAt,
       likesCount: fetchedObject.node.likesCount,
       title: fetchedObject.node.title,
+      id: fetchedObject.node.uuid,
       user: {
         profileImageUrl: fetchedObject.node.author.profileImageUrl,
         name: fetchedObject.node.author.urlName
